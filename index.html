@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade formularios</title>
+</head>
+<body>
+    <h1>Exemplos de Formulário em HTML</h1>
+    <h2>Exemplo 01</h2>
+    <form>
+      <input type="text" name="nome" placeholder="Nome">
+      <input type="e-mail" name="email" placeholder="Email">
+      <input type="date" name="nascimento">
+      <input type="text" name="celular" placeholder="Celular">
+      <input type="password" name="senha" placeholder="Senha">
+      <input type="submit" name="Cadastrar" value="Cadastrar">
+    </form>
+    <h2>Exemplo 02</h2>
+    <textarea>"Texto Livre"</textarea>
+    <h2>Exemplo 03</h2>
+    <fieldset>
+            <legend>Formulário</legend>
+    <form>
+        <label for="name">Nome: </label>
+        <input type="text" id="name" name="name"><br><br>
+        Sexo:
+        <input type="radio" name="Sexo" value="maculine">Masculino
+        <input type="radio" name="Sexo" value="feminine">Feminino<br><br>
+        País:
+        <select name="lista" id="lista">
+            <option>Selecione uma opção</option>
+            <option>Argentina</option>
+            <option>Bolívia</option>
+            <option>Brasil</option>
+            <option>Chile</option>
+            <option>Colombia</option>
+            <option>Equador</option>
+            <option>Guiana</option>
+            <option>Paraguai</option>
+            <option>Peru</option>
+            <option>Suriname</option>
+            <option>Uruguai</option>
+            <option>Venezuela</option>
+        </select><br><br>
+        Mensagem:<br>
+        <textarea></textarea><br><br>
+        <input type="checkbox">Assinar Newsletter?<br><br>
+        <input type="submit" name="enviar" value="Enviar">
+    </fieldset>
+    <h2>Exemplo 04</h2>
+    <input type="search">
+    <input type="submit" value="Clique para pesquisar">
+</body>
+</html>
