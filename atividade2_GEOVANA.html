@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+
+<body>
+    <h1>Pesquisa de Opnião</h1>
+    <p>Nessa pesquisa você será questionado sobre o produto X. Esse produto é vendido em todo o país nas perfumarias,
+        lojas de departamento, internet entre outros. Responda as questo~es abaixo de acordo com sua opnião</p>
+<fieldset>
+     <legend>Informações Pessoais</legend>
+      <input type="text" name="nome" placeholder="Digite o seu nome"><br><br>
+      <input type="text" name="nome" placeholder="Digite o sua idade"><br><br>
+      <input type="text" name="nome" placeholder="Digite o seu email"><br><br>
+      Data de nascimento:<br> 
+      <input type="date" name="nascimento"><br><br>
+      Digite uma senha para acessar os dados da pesquisa posteriormente:<br>
+      <input type="text" name="nome" placeholder="Digite uma senha">
+</fieldset>
+<fieldset>
+    <legend>Aspecto do produto</legend>
+    Selecione a cor do produto após 6 meses de uso:<br>
+    <input type="color" name="favcor" value="#0000FF"><br><br>
+    Adicione uma foto do seu produto<br>
+    <input type="file" name="arquivos">
+</fieldset>
+<fieldset>
+    <legend>Opnião quanto a utilização</legend>
+    Você gosta do cheiro do produto?<br>
+<input type="radio" name="idade" value="Gosto muito">Gosto Muito<br>
+<input type="radio" name="idade" value="Gosto">Gosto<br>
+<input type="radio" name="idade" value="não sei">não sei<br>
+<input type="radio" name="idade" value="não gosto">não gosto<br>
+<input type="radio" name="idade" value="Odeio">Odeio<br><br>
+  Marque as características do produto mais gosta<br>
+<input type="checkbox" name="veiculo1" value="fixação">fixação<br>
+<input type="checkbox" name="veiculo2" value="textura">textura<br>
+<input type="checkbox" name="veiculo3" value="cheiro">cheiro<br>  
+<input type="checkbox" name="veiculo3" value="cor">cor<br>  
+<input type="checkbox" name="veiculo3" value="embalagem">embalagem<br>  
+</fieldset>
+<fieldset>
+    <legend>Nível de satisfação</legend>
+    Coloque nessa escala o seu nível de satisfação geral do produto<br>
+    <input type="range" name="satisfacao" min="o" max="10">
+</fieldset>
+<fieldset>
+    <legend>Opiniões</legend>
+    Digite abaixo sua opnião geral para esse produto<br>
+    <textarea></textarea>
+</fieldset>
+   <input type="button" name="botao" value="Gravar Respostas">
+</body>
+</html>
